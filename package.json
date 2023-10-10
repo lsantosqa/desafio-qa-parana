@@ -1,0 +1,27 @@
+{
+  "name": "desafio-qa-parana",
+  "version": "1.0.0",
+  "description": "Test automation project",
+  "main": "e2e.js",
+  "scripts": {
+    "cy:open": "cypress open",
+    "test": "cypress run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lsantosqa/desafio-qa-parana.git"
+  },
+  "author": "Leandro Santos",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lsantosqa/desafio-qa-parana/issues"
+  },
+  "homepage": "https://github.com/lsantosqa/desafio-qa-parana#readme",
+  "devDependencies": {
+    "cypress": "^13.3.0",
+    "ajv": "^8.12.0"
+  },
+  "dependencies": {
+    "npm": "^10.2.0"
+  }
+}
