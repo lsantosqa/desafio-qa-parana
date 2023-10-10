@@ -11,11 +11,11 @@ describe('Handle with selectors', function() {
       cy.get('a.button:eq(2)').should('be.visible').click()
   })
 
-  it('Click on all edit button', function(){
+  it('Click on all edit buttons', function(){
     cy.clickOnAllButtons('edit')
   })
 
-  it('Click on all delete button', function(){
+  it('Click on all delete buttons', function(){
     cy.clickOnAllButtons('delete')
   })
 })
